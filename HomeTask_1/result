@@ -1,0 +1,2 @@
+[vagrant@otuslinux ~]$ uname -a
+Linux otuslinux 4.16.4 #1 SMP Wed Apr 25 14:19:36 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
