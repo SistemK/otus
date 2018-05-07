@@ -1,0 +1,4 @@
+sudo mdadm --create /dev/md0 -l 5 -n 4 /dev/sd{b,c,d,e} #create RAID5
+sudo mdadm -f /dev/md0 /dev/sdb #fail disk
+sudo mdadm -r /dev/md0 /dev/sdb #remove degraded disk
+sudo mdadm -a /dev/md0 /dev/sdb #hotadd new disk to array
